@@ -89,10 +89,10 @@ alter table `user5` modify `age` tinyint;
 alter table `user5` change column `addr` `address` varchar(100);
 
 #실습 2-14
-alter table `user5` drop `gender`
+alter table `user5` drop `gender`;
 
 #실습 2-15
-create table `User6 like `user5`;
+create table `User6` like `user5`;
 
 #실습 2-16
 insert into `user6` select * from `user5`;
