@@ -59,3 +59,4 @@ CREATE TABLE `board_file` (
 
 
 
+board_terms
